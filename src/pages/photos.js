@@ -1,12 +1,12 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import garden2 from '../images/garden2.jpg'
+import garden2 from '../images/garden2i.jpg'
 import house1 from '../images/house1.jpg'
 import house3 from '../images/house3.jpg'
 import house4 from '../images/house4.jpg'
 import house6 from '../images/house6.jpg'
-import auntie from '../images/crazy-aunti.jpg'
+import auntie from '../images/crazy-auntii.jpg'
 
 
 
