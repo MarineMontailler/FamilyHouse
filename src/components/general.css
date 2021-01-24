@@ -1,0 +1,78 @@
+
+/*GENERALITES*/
+li{
+    list-style : none;
+}
+a{
+    text-decoration: none;
+    color : rgb(37, 37, 37);
+}
+a:hover {
+    color : rgb(90, 90, 90);
+}
+/*PAGE D'ACCUEIL*/
+
+.header-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    max-width: 960;
+    background: #fafafa;
+    box-shadow: 20px 1px 18px;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+
+}
+.header-container h1 {
+    margin: auto 0;
+}
+.header-navbar {
+    display: flex;
+    justify-content: flex-end;
+}
+.header-navbar ul {
+    margin : auto;
+}
+.header-navbar ul li a{
+    margin : 10px;
+}
+.index-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.index-container h1 {
+    font-size: 50px;
+}
+
+/*PAGE CALENDRIER*/
+.calendar {
+    border: solid 1px #777;
+    width:800px;
+    height:600px;
+  }
+
+  /*PAGE PHOTOS*/
+  .photo-layout{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 90%;
+
+  }
+  .photo-container {
+      width: 200px;
+      height: 200px;
+      margin: 10px;
+      display: flex;
+  }
+  .photo-container img{
+    object-fit: cover;
+    width : 400px;
+  }
+  .photo-container img:hover {
+      height: 100%;
+
+  }
