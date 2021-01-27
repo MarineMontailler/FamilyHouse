@@ -14,6 +14,8 @@ import { faHeart } from '@fortawesome/free-solid-svg-icons'
 import Header from "./header"
 import "./layout.css"
 import './general.css'
+import chair from '../images/chair.png'
+
 
 
 const Layout = ({ children }) => {
@@ -38,7 +40,7 @@ const Layout = ({ children }) => {
         }}
       >
         <main style={{
-          minHeight: `100vh`,
+          minHeight: `80vh`,
         }}>{children}</main>
 
       </div>
@@ -51,8 +53,11 @@ const Layout = ({ children }) => {
           bottom: 0,
         }}
       >
+        <p className="footer-address">Les Fresnaies - 49290 Chalonnes Sur Loire</p>
         © {new Date().getFullYear()}, Made with <span><FontAwesomeIcon icon={faHeart} /></span>
       </footer>
+      <img src={chair} alt="la chaise de papy" width="50" />
+
     </>
   )
 }
