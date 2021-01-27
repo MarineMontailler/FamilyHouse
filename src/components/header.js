@@ -11,13 +11,10 @@ const Header = ({ siteTitle }) => (
     </h1>
     <nav className="header-navbar">
       <ul>
-        <li>
-          <Link to="/">Accueil</Link>
-          <Link to="/photos/">Photos</Link>
-          <Link to="/calendrier/">Calendrier</Link>
-          <Link to="/contact/">Contact</Link>
-
-        </li>
+        <li><Link to="/">Accueil</Link></li>
+        <li><Link to="/photos/">Photos</Link></li>
+        <li><Link to="/calendrier/">Calendrier</Link></li>
+        <li><Link to="/contact/">Contact</Link></li>
       </ul>
     </nav>
   </header >

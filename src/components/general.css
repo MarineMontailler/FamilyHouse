@@ -28,12 +28,12 @@ a:hover {
     margin: auto 0;
 }
 .header-navbar {
-    display: flex;
-    justify-content: flex-end;
 }
 .header-navbar ul {
     margin : auto;
+    display: flex;
 }
+
 .header-navbar ul li a{
     margin : 10px;
 }
@@ -92,3 +92,25 @@ a:hover {
       margin:auto;
       text-align: center;
   }
+
+  @media (max-width : 700px){
+
+    .header-navbar ul{
+        font-size: 12px;
+    
+    }
+    .header-navbar ul li {
+        margin-bottom:1px;
+
+    }
+
+  }
+  @media (max-width : 500px){
+
+  .header-navbar ul{
+      flex-direction: column;
+  
+  }
+ 
+
+}
