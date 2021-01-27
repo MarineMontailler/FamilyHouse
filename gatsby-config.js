@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Les Fresnaies`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Gîte familial du Maine et Loire`,
     author: `@gatsbyjs`,
   },
   plugins: [
