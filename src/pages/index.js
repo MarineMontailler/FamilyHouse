@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import house3 from '../images/house3.jpg'
+// import house3 from '../images/house3.jpg'
 
 const IndexPage = () => (
   <Layout>
@@ -15,9 +15,9 @@ const IndexPage = () => (
       </p>
 
       <p>Nous vous attendons...</p>
-      <div style={{ maxWidth: `1000px`, marginBottom: `1.45rem` }}>
+      {/* <div style={{ maxWidth: `1000px`, marginBottom: `1.45rem` }}>
         <img src={house3} alt="les fresnaies" />
-      </div>
+      </div> */}
     </div>
 
   </Layout>

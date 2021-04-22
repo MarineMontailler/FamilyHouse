@@ -45,8 +45,11 @@ a:hover {
     flex-direction: column;
     align-items: center;
     text-align: center;
-
-
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 1px 1px 10px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(88, 88, 88);
+    /* background-color: rgb(255, 255, 255, 0.5); */
 }
 .index-container h1 {
     font-size: 50px;
@@ -63,6 +66,9 @@ a:hover {
       width : 60%;
       margin : auto;
       text-align: center;
+      color:white;
+    font-weight: 800;
+    text-shadow: 1px 1px 10px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(88, 88, 88);
   }
 
   /*PAGE PHOTOS*/
@@ -82,6 +88,7 @@ a:hover {
   .photo-container img{
     object-fit: cover;
     width : 400px;
+    border: solid 5px white;
   }
   .photo-container img:hover {
       height: 100%;
@@ -91,6 +98,9 @@ a:hover {
   .contact-layout {
       margin:auto;
       text-align: center;
+      color:white;
+    font-weight: 800;
+    text-shadow: 1px 1px 10px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(88, 88, 88);
   }
 
   @media (max-width : 700px){

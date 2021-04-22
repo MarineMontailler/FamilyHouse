@@ -20,6 +20,7 @@ body {
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
+  background: no-repeat url('../images/portail.jpg');
 }
 
 
@@ -595,5 +596,10 @@ pre tt:after {
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
+  }
+}
+@media (max-width : 700px){
+  body {
+    background: no-repeat url('../images/portailResp.jpg');
   }
 }

@@ -40,23 +40,26 @@ const Layout = ({ children }) => {
         }}
       >
         <main style={{
-          minHeight: `80vh`,
+          minHeight: `100vh`,
         }}>{children}</main>
 
       </div>
       <footer
         style={{
-          margin: `10px auto`,
+          margin: `10px auto 0px auto`,
+          paddingTop: `10px`,
           textAlign: 'center',
           width: `100vw`,
+          height: `10vh`,
           position: `absolute`,
           bottom: 0,
+          backgroundColor: `white`,
         }}
       >
         <p className="footer-address">Les Fresnaies - 49290 Chalonnes Sur Loire</p>
         © {new Date().getFullYear()}, Made with <span><FontAwesomeIcon icon={faHeart} /></span>
       </footer>
-      <img src={chair} alt="la chaise de papy" width="50" />
+      <img src={chair} alt="la chaise de papy" width="50" style={{ position: "relative", marginBottom: `2px`, }} />
 
     </>
   )
