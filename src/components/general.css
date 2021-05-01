@@ -21,14 +21,13 @@ a:hover {
     border-bottom: 1px solid rgb(214, 214, 214);
     position: fixed;
     width: 100%;
-    height: 100px;
+    height: 80px;
 
 }
 .header-container h1 {
     margin: auto 0;
 }
-.header-navbar {
-}
+
 .header-navbar ul {
     margin : auto;
     display: flex;
@@ -62,49 +61,84 @@ a:hover {
     height:300px;
     margin : auto;
   }
-  .calendar-title-top {
-      width : 60%;
+.calendar-title-top {
+    width : 60%;
       margin : auto;
       text-align: center;
       color:white;
-    font-weight: 800;
-    text-shadow: 1px 1px 10px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(88, 88, 88);
+      font-weight: 800;
+      text-shadow: 1px 1px 10px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(88, 88, 88);
   }
 
-  /*PAGE PHOTOS*/
-  .photo-layout{
+/*PAGE PHOTOS*/
+.photo-layout{
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       width: 90%;
+      max-height: 90vh;
+      overflow: scroll;
 
-  }
-  .photo-container {
+}
+.photo-container {
       width: 200px;
       height: 200px;
       margin: 10px;
       display: flex;
-  }
-  .photo-container img{
+}
+.photo-container img{
     object-fit: cover;
     width : 400px;
     border: solid 5px white;
-  }
-  .photo-container img:hover {
+}
+.photo-container img:hover {
       height: 100%;
 
-  }
+}
 /*PAGE CONTACT*/
-  .contact-layout {
+.contact-layout {
       margin:auto;
       text-align: center;
       color:white;
-    font-weight: 800;
-    text-shadow: 1px 1px 10px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(88, 88, 88);
-  }
+      font-weight: 800;
+      text-shadow: 1px 1px 10px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(88, 88, 88);
+}
 
+/*PAGE LOGIN*/
+.login-container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin:auto;
+      color:white;
+      font-weight: 800;
+      text-shadow: 1px 1px 10px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(88, 88, 88);
+      
+}
+.login-form {
+      width: 200px;
+      height: 150px;
+      margin-bottom: 0;
+      
+}
+
+/* PRIVATE */
+.private-layout{
+    background: white;
+    width: 90%;
+    height:90vh;
+    padding: 5px;
+}
+.private-layout h3 {
+    text-align: center;
+}
+
+
+  /* RESPONSIVE */
   @media (max-width : 700px){
-
+    .header-container{
+        height: auto;
+    }
     .header-navbar ul{
         font-size: 12px;
     
@@ -113,14 +147,12 @@ a:hover {
         margin-bottom:1px;
 
     }
-
-  }
+  }   
   @media (max-width : 500px){
 
   .header-navbar ul{
       flex-direction: column;
   
   }
- 
-
 }
+ 

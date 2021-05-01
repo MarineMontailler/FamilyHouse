@@ -53,7 +53,9 @@ const Layout = ({ children }) => {
           height: `10vh`,
           position: `absolute`,
           bottom: 0,
-          backgroundColor: `white`,
+          color: `white`,
+          textShadow: `1px 1px 10px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(88, 88, 88)`
+
         }}
       >
         <p className="footer-address">Les Fresnaies - 49290 Chalonnes Sur Loire</p>

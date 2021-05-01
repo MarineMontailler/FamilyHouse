@@ -8,6 +8,8 @@ import house4 from '../images/house4.jpg'
 import house6 from '../images/house6.jpg'
 import chenille from '../images/chenille.jpg'
 import portail from '../images/portail.jpg'
+import jardinpuit from '../images/jardin-puit.jpg'
+import table from '../images/table.jpg'
 
 
 
@@ -21,9 +23,11 @@ const Photos = () => (
             <div className="photo-container"><img src={chenille} alt="la vue du jardin" /></div>
             <div className="photo-container"><img src={garden2} alt="la vue du jardin" /></div>
             <div className="photo-container"><img src={portail} alt="le portail du jardin" /></div>
-            <div className="photo-container"><img src={house1} alt="le chenille" /></div>
             <div className="photo-container"><img src={house4} alt="la vue du jardin" /></div>
-            <div className="photo-container"><img src={house6} alt="la vue du jardin" /></div>
+            <div className="photo-container"><img src={jardinpuit} alt="la vue du jardin" /></div>
+            <div className="photo-container"><img src={table} alt="la vue du jardin" /></div>
+
+
         </div>
 
     </Layout>
